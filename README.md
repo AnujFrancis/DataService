@@ -1,4 +1,4 @@
-# Data Service
+# Data Service (Java)
 
 This service provides CRUD operations for customer data management. It serves as the data layer for the three-tier architecture.
 
@@ -20,14 +20,14 @@ This service provides CRUD operations for customer data management. It serves as
 
 ## Setup
 
-1. Install dependencies:
+1. Build the project:
    ```
-   npm install
+   mvn clean package
    ```
 
-2. Start the service:
+2. Run the service:
    ```
-   npm start
+   mvn spring-boot:run
    ```
 
 The service will run on port 3002 by default.
@@ -41,3 +41,9 @@ Customer records include:
 - dob: Date of birth
 - createdAt: Timestamp of record creation
 - updatedAt: Timestamp of last update
+
+## Technology Stack
+
+- Java 11
+- Spring Boot 2.7.8
+- Jackson for JSON processing
