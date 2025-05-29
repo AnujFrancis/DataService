@@ -1,0 +1,19 @@
+{
+  "name": "data-service",
+  "version": "1.0.0",
+  "description": "Data layer service for CRUD operations on customer data",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
+}

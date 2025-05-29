@@ -1,0 +1,18 @@
+{
+  "customers": [
+    {
+      "id": "1748487330329",
+      "name": "Anuj Francis",
+      "alias": "anujf",
+      "dob": "1986-09-29",
+      "createdAt": "2025-05-29T02:55:30.329Z"
+    },
+    {
+      "id": "1748487346383",
+      "name": "Sruthi",
+      "alias": "sruthi",
+      "dob": "1990-07-08",
+      "createdAt": "2025-05-29T02:55:46.383Z"
+    }
+  ]
+}
